@@ -23,23 +23,23 @@
 
 <body>
      <div class="tint" style="text-align: left; margin-left: 50px;">
-          <div style="padding-bottom: 50px;">
-               <h1 style="padding-top: 25px; padding-bottom: 25px;" class="unselectable">圭紫の初心者向け日本語辞典<br>Keishi's
-                    Japanese Dictionary for
-                    Beginners</h1>
-               <div id="div_group"></div>
+          <div>
+               <div class="nav">
+                    <h1 id="title" style="display: none; margin-left: 50px;" class="unselectable">
+                         圭紫の初心者向け日本語辞典<br>Keishi's
+                         Japanese Dictionary for
+                         Beginners</h1>
+               </div>
+               <div id="div_group" style="padding-top: 200px;"></div>
           </div>
-          <button id="refresh"><i class="fa-solid fa-arrow-up"></i></button>
+          <button id="refresh" style="display: none;"><i class="fa-solid fa-arrow-up"></i></button>
           <a id="refreshtext" class="pointer" style="z-index: 0;">Back to Top</a>
 
           <script src="js/scroll.js"></script>
           <script src="js/parse_data.js"></script>
           <script src="js/parse_category.js"></script>
           <script src="js/fetch_json.js"></script>
-          <script>
-               // Get parsed JSON data and then parse it through category function
-               jsonFromFile().forEach((category) => parseCategory(category));
-          </script>
+          <script src="js/startup.js"></script>
      </div>
 </body>
 
