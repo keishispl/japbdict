@@ -1,9 +1,9 @@
 function parseData(text, category) {
 
      // Sub-DIV for each JSON data element
-     const categoryDiv = document.getElementById("category_"+category+"_2");
+     const categoryDiv = document.getElementById("category_" + category + "_2");
      const div = document.createElement("div")
-     div.setAttribute("id", "category_"+category+"+"+text.name);
+     div.setAttribute("id", "category_" + category + "+" + text.name);
      div.setAttribute("class", "column");
 
      categoryDiv.appendChild(div);
