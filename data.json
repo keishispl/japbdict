@@ -1,0 +1,312 @@
+[
+     {
+          "name": "色",
+          "eng": "Colour",
+          "text": [
+               {
+                    "name": "色",
+                    "furigana": "いろ",
+                    "romanji": "iro",
+                    "example": [
+                         "この[色]は綺麗ですね。",
+                         "This [colour] is pretty."
+                    ]
+               },
+               {
+                    "name": "赤",
+                    "furigana": "あか",
+                    "romanji": "aka",
+                    "color": "red",
+                    "example": [
+                         "私の好きな色は[赤]です。",
+                         "My favourite colour is [red]."
+                    ]
+               },
+               {
+                    "name": "青",
+                    "furigana": "あお",
+                    "romanji": "ao",
+                    "color": "blue",
+                    "example": [
+                         "空は[青い]ですか？",
+                         "Is the sky [blue]?"
+                    ]
+               },
+               {
+                    "name": "黄(色)",
+                    "furigana": "き (いろ)",
+                    "romanji": "ki (iro)",
+                    "color": "yellow",
+                    "example": [
+                         "バナナは[黄色]です。",
+                         "Bananas are [yellow]."
+                    ]
+               },
+               {
+                    "name": "橙、オレンジ(色)",
+                    "furigana": "だいだい、オレンジ (いろ)",
+                    "romanji": "daidai, orenji (iro)",
+                    "color": "orange",
+                    "example": [
+                         "みかんは[橙色]だと思います。",
+                         "I think mandarins are [orange]."
+                    ]
+               },
+               {
+                    "name": "緑(色)",
+                    "furigana": "みどり (いろ)",
+                    "romanji": "midori (iro)",
+                    "color": "green",
+                    "example": [
+                         "どの野菜が[緑色]ですか？",
+                         "Which vegetables are [green]?"
+                    ]
+               },
+               {
+                    "name": "紫",
+                    "furigana": "むらさき",
+                    "romanji": "murasaki",
+                    "color": "purple",
+                    "example": [
+                         "[紫]は本当に素敵ですね。",
+                         "[Purple] is really nice."
+                    ]
+               },
+               {
+                    "name": "桃色、ピンク",
+                    "furigana": "ももいろ、ピンク",
+                    "romanji": "momoiro, pinku",
+                    "color": "pink",
+                    "example": [
+                         "桃は[桃色]です。",
+                         "Peaches are [pink]."
+                    ]
+               },
+               {
+                    "name": "白",
+                    "furigana": "しろ",
+                    "romanji": "shiro",
+                    "color": "white",
+                    "example": [
+                         "[白]とは何ですか？",
+                         "What is [white]?"
+                    ]
+               },
+               {
+                    "name": "黒",
+                    "furigana": "くろ",
+                    "romanji": "kuro",
+                    "color": "black",
+                    "example": [
+                         "[黒]ゴマを食べますか？",
+                         "Do you eat [black] sesame seeds?"
+                    ]
+               }
+          ]
+     },
+     {
+          "name": "人々",
+          "eng": "People",
+          "text": [
+               {
+                    "name": "人",
+                    "furigana": "ひと、[じん、にん]",
+                    "romanji": "hito, [jin, nin]",
+                    "example": [
+                         "あの女は[人]です。",
+                         "That girl is a [person]."
+                    ]
+               },
+               {
+                    "name": "人々",
+                    "furigana": "ひと ひと",
+                    "romanji": "hito hito",
+                    "example": [
+                         "その[人々]は優しいです。",
+                         "Those [people] are nice."
+                    ]
+               },
+               {
+                    "name": "男",
+                    "furigana": "おとこ、[だん、なん]",
+                    "romanji": "otoko, [dan, nan]",
+                    "color": "lightblue",
+                    "meanings": [
+                         "Man",
+                         "Boy",
+                         "Male"
+                    ]
+               },
+               {
+                    "name": "男の子",
+                    "meaning": "Boy",
+                    "color": "lightblue"
+               },
+               {
+                    "name": "女",
+                    "furigana": "おんな、め、[じょ、にょ]",
+                    "romanji": "onna, me, [jo, nyo]",
+                    "color": "pink",
+                    "meanings": [
+                         "Woman",
+                         "Girl",
+                         "Female"
+                    ]
+               },
+               {
+                    "name": "女の子",
+                    "meaning": "Girl",
+                    "color": "pink"
+               },
+               {
+                    "name": "子、子供",
+                    "furigana": "こ、[し、す]、こども",
+                    "romanji": "ko, [shi, su], kodomo",
+                    "color": "lightyellow",
+                    "example": [
+                         "あの[子]は迷子になったの？",
+                         "Is that [child] lost?"
+                    ]
+               }
+          ]
+     },
+     {
+          "name": "方向",
+          "eng": "Directions",
+          "text": [
+               {
+                    "name": "東",
+                    "furigana": "ひがし",
+                    "romanji": "higashi",
+                    "meaning": "East"
+               },
+               {
+                    "name": "南",
+                    "furigana": "みなみ",
+                    "romanji": "minami",
+                    "meaning": "South"
+               },
+               {
+                    "name": "西",
+                    "furigana": "にし",
+                    "romanji": "nishi",
+                    "meaning": "West"
+               },
+               {
+                    "name": "北",
+                    "furigana": "きた",
+                    "romanji": "kita",
+                    "meaning": "North"
+               },
+               {
+                    "name": "北西",
+                    "furigana": "ほく せい",
+                    "romanji": "hoku sei",
+                    "meaning": "Northwest"
+               },
+               {
+                    "name": "北東",
+                    "furigana": "ほく とう",
+                    "romanji": "hoku tou",
+                    "meaning": "Northeast"
+               },
+               {
+                    "name": "南西",
+                    "furigana": "なん せい",
+                    "romanji": "nan sei",
+                    "meaning": "Southwest"
+               },
+               {
+                    "name": "南東",
+                    "furigana": "なん とう",
+                    "romanji": "nan tou",
+                    "meaning": "Southeast"
+               },
+               {
+                    "name": "現在地",
+                    "furigana": "げん ざい ち",
+                    "romanji": "gen zai chi",
+                    "meaning": "Current Location"
+               },
+
+               {
+                    "name": "左",
+                    "furigana": "ひだり",
+                    "romanji": "hidari",
+                    "meaning": "Left"
+               },
+               {
+                    "name": "右",
+                    "furigana": "みぎ",
+                    "romanji": "migi",
+                    "meaning": "Right"
+               },
+               {
+                    "name": "上",
+                    "furigana": "うえ",
+                    "romanji": "ue",
+                    "meaning": "Up"
+               },
+               {
+                    "name": "下",
+                    "furigana": "した",
+                    "romanji": "shita",
+                    "meaning": "Down"
+               },
+               {
+                    "name": "前",
+                    "furigana": "まえ",
+                    "romanji": "mae",
+                    "meaning": "Front"
+               },
+               {
+                    "name": "後ろ",
+                    "furigana": "うしろ",
+                    "romanji": "ushiro",
+                    "meaning": "Back"
+               },
+               {
+                    "name": "遠い",
+                    "furigana": "とおい",
+                    "romanji": "tooi",
+                    "meaning": "Close"
+               },
+               {
+                    "name": "近い",
+                    "furigana": "ちかい",
+                    "romanji": "chikai",
+                    "meaning": "Far"
+               },
+               {
+                    "name": "これ",
+                    "romanji": "kore",
+                    "meaning": "This"
+               },
+               {
+                    "name": "ここ",
+                    "romanji": "koko",
+                    "meaning": "Here"
+               },
+               {
+                    "name": "それ",
+                    "romanji": "sore",
+                    "meaning": "That"
+               },
+               {
+                    "name": "そこ",
+                    "romanji": "soko",
+                    "meaning": "There"
+               },
+               {
+                    "name": "あれ",
+                    "romanji": "are",
+                    "meaning": "That (Far Away)"
+               },
+               {
+                    "name": "あそこ",
+                    "romanji": "asoko",
+                    "meaning": "There (Far Away)"
+               }
+          ]
+     }
+]

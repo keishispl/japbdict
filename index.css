@@ -1,0 +1,122 @@
+::-moz-selection {
+     background: rgba(206, 207, 208, 0.22);
+}
+
+::selection {
+     background: rgba(206, 207, 208, 0.22);
+}
+
+.is-enabled {
+     background: rgba(206, 207, 208, 0.22);
+}
+
+.pointer:hover {
+     cursor: pointer;
+}
+
+body {
+     overscroll-behavior: none;
+     background-color: #262626;
+     background-size: cover;
+     background-position: center right;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     color: rgb(206, 207, 208);
+     font-weight: normal;
+     margin: 0;
+     align-items: center;
+     justify-content: center;
+}
+
+.main {
+     border-collapse: collapse;
+     border-spacing: 0;
+     display: block;
+     width: auto;
+     overflow: auto;
+     overflow-x: scroll;
+     word-break: normal;
+     word-break: keep-all;
+     -webkit-overflow-scrolling: touch;
+}
+
+.unselectable {
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     margin-left: -25px;
+}
+
+.title {
+     max-width: fit-content;
+     padding: 5px 20px 5px 20px;
+     border: solid #cecfd0 2px;
+     border-radius: 20px;
+}
+
+.title:hover {
+     background: rgba(206, 207, 208, 0.11);
+}
+
+.row {
+     font-size: 0;
+}
+
+.column {
+     display: inline-block;
+     width: 300px;
+     margin-right: 200px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     vertical-align: middle;
+}
+
+#refresh {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 99;
+     border: none;
+     outline: none;
+     backdrop-filter: blur(10px);
+     border: 2px solid #cecfd0;
+     background: transparent;
+     color: #cecfd0;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 10px;
+     font-size: 18px;
+     width: 50px;
+     height: 50px;
+}
+
+#refresh:hover {
+     backdrop-filter: blur(10px);
+     background: rgba(206, 207, 208, 0.22);
+}
+
+#refreshtext {
+  display: none;
+}
+    
+#refresh:hover + #refreshtext {
+  display: block;
+  position: fixed;
+  bottom: 75px;
+  right: 5px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 2px solid #cecfd0;
+  background: #cecfd0;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 10px;
+  width: 50px;
+  height: 30px;
+}
