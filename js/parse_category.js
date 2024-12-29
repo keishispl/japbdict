@@ -13,40 +13,37 @@ function parseCategory(category) {
                categories.push(category.name);
 
                const divGroup = document.getElementById("div_group");
+               const box = document.getElementById("categories");
 
                const div = document.createElement("div");
-               const div2 = document.createElement("div");
 
                div.setAttribute("id", `category_${category.name}`);
-
-               div2.setAttribute("id", `category_${category.name}_2`);
-               div2.setAttribute("style", "display: none;")
-               div2.setAttribute("class", "row");
+               
+               div.setAttribute("style", "display: none;")
+               div.setAttribute("class", "row");
 
                divGroup.appendChild(div);
-               divGroup.appendChild(div2);
 
 
                const para = document.createElement("p");
-               const para2 = document.createElement("p");
-               div.appendChild(para);
-               div2.appendChild(para2);
+               box.appendChild(para);
 
-               para.innerHTML = `<b>${category.name} - ${category.eng}</b>`;
+               para.innerHTML = `${category.name} - ${category.eng}`;
                para.setAttribute("id", `category-${category.name}-text`);
-               para.setAttribute("style", "font-size: 50px;")
-               para.setAttribute("class", "unselectable title pointer")
+               para.setAttribute("class", "unselectable title pointer categories")
 
                // Show and hide category
                const toggleBtn = document.getElementById(`category-${category.name}-text`);
-               const hiddenDiv = document.getElementById(`category_${category.name}_2`);
+               const hiddenDiv = document.getElementById(`category_${category.name}`);
 
                toggleBtn.addEventListener('click', () => {
+                    document.body.scrollTo({ top: 0 });
+                    document.documentElement.scrollTo({ top: 0 });
                     // Show
                     if (hiddenDiv.style.display === 'none') {
                          for (const key of categories) {
                               document.getElementById(`category-${key}-text`).classList.remove('is-enabled');
-                              document.getElementById(`category_${key}_2`).style.display = 'none';
+                              document.getElementById(`category_${key}`).style.display = 'none';
                          }
                          toggleBtn.classList.add('is-enabled');
                          hiddenDiv.style.display = 'block';

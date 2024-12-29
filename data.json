@@ -139,6 +139,8 @@
                },
                {
                     "name": "男の子",
+                    "furigana": "おとこ の こ",
+                    "romanji": "otoko no ko",
                     "meaning": "Boy",
                     "color": "lightblue"
                },
@@ -155,6 +157,8 @@
                },
                {
                     "name": "女の子",
+                    "furigana": "おんな の こ",
+                    "romanji": "onna no ko",
                     "meaning": "Girl",
                     "color": "pink"
                },

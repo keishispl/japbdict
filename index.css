@@ -1,6 +1,7 @@
 /* width */
 ::-webkit-scrollbar {
      width: 2px;
+     height: 0px;
 }
 
 /* Track */
@@ -24,8 +25,30 @@
      background: rgba(206, 207, 208, 0.22);
 }
 
+.pointer {
+     z-index: 0;
+}
+
 .pointer:hover {
      cursor: pointer;
+}
+
+#categories {
+     display: flex;
+     margin-top: -25px;
+     margin-left: 50px;
+     overflow-x: scroll;
+     width: 88%;
+     font-weight: bold;
+}
+
+#div-group {
+     padding-top: 200px;
+}
+
+#main {
+     text-align: left;
+     margin-left: 50px;
 }
 
 body {
@@ -66,7 +89,7 @@ body {
      max-width: fit-content;
      padding: 5px 20px 5px 20px;
      border: solid #cecfd0 2px;
-     border-radius: 20px;
+     border-radius: 15px;
 }
 
 .title:hover {
@@ -79,8 +102,8 @@ body {
 
 .column {
      display: inline-block;
-     width: 300px;
-     margin-right: 200px;
+     width: 350px;
+     margin-right: 150px;
      margin-bottom: 20px;
      margin-top: 20px;
      vertical-align: middle;
@@ -90,14 +113,58 @@ body {
      position: fixed;
      top: 0px;
      z-index: 1;
-     width: 5000px;
      backdrop-filter: blur(2px);
      background: rgba(38, 38, 38, 0.5);
-     margin-left: -50px;
+     margin-left: -75px;
      box-shadow: 0px 0px 50px rgba(38, 38, 38, 0.5);
+     width: 100%;
 }
 
-#refresh {
+
+.name {
+     font-size: 40px;
+     margin-bottom: -25px;
+}
+.furigana {
+     font-size: 25px;
+     margin-bottom: -27.5px;
+     margin-left: 1px;
+}
+.romanji {
+     font-size: 25px;
+     margin-left: 2px;
+}
+
+.meaning {
+     font-size: 20px;
+     padding-bottom: 20px;
+}
+.meanings {
+     font-size: 20px;
+     padding-bottom: 20px;
+}
+
+.example {
+     font-size: 20px;
+     padding-bottom: 20px;
+}
+
+.one {
+     margin-left: 1px;
+}
+
+#title {
+     display: none;
+     margin-left: 75px;
+}
+
+.categories {
+     font-size: 25px;
+     margin-left: 25px;
+     white-space: nowrap;
+}
+
+#top {
      position: fixed;
      bottom: 20px;
      right: 20px;
@@ -116,16 +183,16 @@ body {
      height: 50px;
 }
 
-#refresh:hover {
+#top:hover {
      backdrop-filter: blur(10px);
      background: rgba(206, 207, 208, 0.22);
 }
 
-#refreshtext {
+#toptext {
      display: none;
 }
 
-#refresh:hover+#refreshtext {
+#top:hover+#toptext {
      display: block;
      position: fixed;
      bottom: 75px;

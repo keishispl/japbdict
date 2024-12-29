@@ -1,4 +1,4 @@
-const refresh = document.getElementById(`refresh`);
+const refresh = document.getElementById(`top`);
 refresh.style.display = "none";
 
 refresh.addEventListener('click', () => {
