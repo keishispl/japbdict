@@ -46,12 +46,33 @@
      padding-top: 200px;
 }
 
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+     #div_group {
+          padding-top: 250px;
+     }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+     #div_group {
+          padding-top: 275px;
+     }
+}
+
+@media only screen and (max-width: 480px) {
+     #div_group {
+          padding-top: 300px;
+     }
+}
+
 #main {
      text-align: left;
      margin-left: 50px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap');
+
 body {
+     font-family: "Zen Maru Gothic", serif;
      overscroll-behavior: none;
      background-color: #262626;
      background-size: cover;
@@ -102,8 +123,8 @@ body {
 
 .column {
      display: inline-block;
-     width: 350px;
-     margin-right: 150px;
+     width: 400px;
+     margin-right: 100px;
      margin-bottom: 20px;
      margin-top: 20px;
      vertical-align: middle;
@@ -122,30 +143,32 @@ body {
 
 
 .name {
-     font-size: 40px;
+     font-size: 45px;
      margin-bottom: -25px;
 }
+
 .furigana {
-     font-size: 25px;
+     font-size: 30px;
      margin-bottom: -27.5px;
-     margin-left: 1px;
 }
+
 .romanji {
-     font-size: 25px;
-     margin-left: 2px;
+     font-size: 30px;
+     margin-left: 4px;
 }
 
 .meaning {
-     font-size: 20px;
+     font-size: 25px;
      padding-bottom: 20px;
 }
+
 .meanings {
-     font-size: 20px;
+     font-size: 25px;
      padding-bottom: 20px;
 }
 
 .example {
-     font-size: 20px;
+     font-size: 25px;
      padding-bottom: 20px;
 }
 
