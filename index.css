@@ -43,6 +43,7 @@
 }
 
 #div_group {
+     overflow-x: scroll;
      padding-top: 200px;
 }
 
@@ -128,6 +129,12 @@ body {
      margin-bottom: 20px;
      margin-top: 20px;
      vertical-align: middle;
+}
+
+@media only screen and (max-width: 800px) {
+     .column {
+          margin-right: 0px;
+     }
 }
 
 .nav {
